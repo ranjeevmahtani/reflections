@@ -18,3 +18,7 @@ What is the benefit of having a copy of the last known state of the remote store
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 - I would probably use Google Drive or Dropbox. It would be easier to ensure regular saves. However it would be prohibitively harder to use branching. I would just go with git and github.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+- when working on something experimental, or which needs review before being merged into master.
+
+
