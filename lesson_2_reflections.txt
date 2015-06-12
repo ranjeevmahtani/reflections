@@ -4,3 +4,23 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 - it serves as a place to store ready code files before commiting them together
 
+How can you use the staging area to make sure you have one commit per logical change?
+- by using the <diff --staged> command to verify that all changes are logically related. once committed, additional changes can be staged for the next commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- branches would be helpful when testing new features, working on experimental layouts, or attempting to refactor code. branching would allow work to be done on those while preserving a master working branch. branching could also be useful if multiple people are working on the same project.
+
+How do the diagrams help you visualize the branch structure?
+- they illustrate reachability of each commit, as well as parent/child heirarchy
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- the two most recent commits from the branches are merged into a new one
+- the merge takes place into the checked out branch
+- all the commits from the branch being merged in are populated into the log of the checked out branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- Pros: saves a lot of effort
+- Cons: sometimes it doesn't know how to resolve seemingly obvious conflicts, specifically when the two branches modify the same lines of code.
+
+
+
